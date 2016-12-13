@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DZPopMenu_Example' do
+  pod 'DZPopMenu', :path => '../'
+
+  target 'DZPopMenu_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
