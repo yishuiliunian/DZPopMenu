@@ -1,0 +1,6 @@
+framework module Pods_DZPopMenu_Tests {
+  umbrella header "Pods-DZPopMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

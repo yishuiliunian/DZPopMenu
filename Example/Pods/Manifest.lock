@@ -1,0 +1,23 @@
+PODS:
+  - DZPopMenu (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DZPopMenu (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZPopMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DZPopMenu: 72df1cf3b8ae2c67e2ac5ced0780a56f5dfd10fb
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 9107b4d75fd3e2a8b9dcb8c1ebc164d4c5cd65ab
+
+COCOAPODS: 1.1.1
